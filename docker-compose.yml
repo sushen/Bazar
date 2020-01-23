@@ -14,9 +14,9 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
-      
 
-  # Word-press
+
+  # Wordpress
   wordpress:
     image: wordpress
     depends_on:
