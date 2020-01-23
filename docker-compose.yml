@@ -14,8 +14,9 @@ services:
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
       MYSQL_PASSWORD: wordpress
+      
 
-  # Wordpress
+  # Word-press
   wordpress:
     image: wordpress
     depends_on:
@@ -39,4 +40,3 @@ services:
     environment:
       PMA_HOST: mysql
       MYSQL_ROOT_PASSWORD: wordpress
-
