@@ -16,7 +16,7 @@ services:
       MYSQL_PASSWORD: wordpress
 
 
-  # Wordpress
+  # Word-Press
   wordpress:
     image: wordpress
     depends_on:
